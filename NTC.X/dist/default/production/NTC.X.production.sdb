@@ -1,0 +1,560 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F27Q10 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+[v i2___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atol.c
+[v _atol atol `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+[v i2___llmod __llmod `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+[v i2___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"4 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\library/UART/UART.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"12
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+"29
+[v _UART_Read UART_Read `(uc  1 e 1 0 ]
+"50 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\main.c
+[v _init init `(v  1 e 1 0 ]
+"110
+[v _main main `(v  1 e 1 0 ]
+"167
+[v _isr isr `IIH(v  1 e 1 0 ]
+"182
+[v _NTC_Write NTC_Write `(v  1 e 1 0 ]
+"209
+[v _Duty_Control Duty_Control `(v  1 e 1 0 ]
+"244
+[v _RTC_Read RTC_Read `(v  1 e 1 0 ]
+"292
+[v _Convert_data Convert_data `(ul  1 e 4 0 ]
+"321
+[v _DGM_Effect DGM_Effect `(ul  1 e 4 0 ]
+"339
+[v _IC595_Write IC595_Write `(v  1 e 1 0 ]
+"354
+[v _Set_PWM_Duty Set_PWM_Duty `(v  1 e 1 0 ]
+"373
+[v _T0_int T0_int `(a  1 e 1 0 ]
+"391
+[v _T0_int2 T0_int2 `(a  1 e 1 0 ]
+"11997 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q10.h
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3739 ]
+"13661
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @3760 ]
+"16628
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"17029
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"18426
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3830 ]
+"18558
+[v _RC7PPS RC7PPS `VEuc  1 e 1 @3833 ]
+"19036
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"19532
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"20028
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"26747
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"26869
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"26991
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"28358
+[v _RCREG RCREG `VEuc  1 e 1 @3992 ]
+"28416
+[v _TXREG TXREG `VEuc  1 e 1 @3993 ]
+"28473
+[v _SPBRG SPBRG `VEuc  1 e 1 @3994 ]
+"28601
+[v _RCSTA RCSTA `VEuc  1 e 1 @3996 ]
+[s S285 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"28618
+[u S294 . 1 `S285 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES294  1 e 1 @3996 ]
+"28781
+[v _TXSTA TXSTA `VEuc  1 e 1 @3997 ]
+[s S263 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"28798
+[u S272 . 1 `S263 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES272  1 e 1 @3997 ]
+"29205
+[v _PWM4DCL PWM4DCL `VEuc  1 e 1 @3999 ]
+"29271
+[v _PWM4DCH PWM4DCH `VEuc  1 e 1 @4000 ]
+"29441
+[v _PWM4CON PWM4CON `VEuc  1 e 1 @4001 ]
+"29504
+[v _PWM3DCL PWM3DCL `VEuc  1 e 1 @4002 ]
+"29570
+[v _PWM3DCH PWM3DCH `VEuc  1 e 1 @4003 ]
+"29740
+[v _PWM3CON PWM3CON `VEuc  1 e 1 @4004 ]
+[s S39 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 P3TSEL 1 0 :2:4 
+`uc 1 P4TSEL 1 0 :2:6 
+]
+"30279
+[s S44 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 P3TSEL0 1 0 :1:4 
+`uc 1 P3TSEL1 1 0 :1:5 
+`uc 1 P4TSEL0 1 0 :1:6 
+`uc 1 P4TSEL1 1 0 :1:7 
+]
+[u S53 . 1 `S39 1 . 1 0 `S44 1 . 1 0 ]
+[v _CCPTMRSbits CCPTMRSbits `VES53  1 e 1 @4013 ]
+"31558
+[v _T2PR T2PR `VEuc  1 e 1 @4027 ]
+"31596
+[v _T2CON T2CON `VEuc  1 e 1 @4028 ]
+"31870
+[v _T2CLKCON T2CLKCON `VEuc  1 e 1 @4030 ]
+"34889
+[v _TMR0L TMR0L `VEuc  1 e 1 @4050 ]
+"35027
+[v _TMR0H TMR0H `VEuc  1 e 1 @4051 ]
+"35281
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4052 ]
+"35346
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4053 ]
+[s S82 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"36231
+[s S90 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36231
+[s S94 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36231
+[u S98 . 1 `S82 1 . 1 0 `S90 1 . 1 0 `S94 1 . 1 0 ]
+"36231
+"36231
+[v _INTCONbits INTCONbits `VES98  1 e 1 @4082 ]
+"39334
+[v _LATC1 LATC1 `VEb  1 e 0 @31777 ]
+"39337
+[v _LATC2 LATC2 `VEb  1 e 0 @31778 ]
+"39340
+[v _LATC3 LATC3 `VEb  1 e 0 @31779 ]
+"39346
+[v _LATC5 LATC5 `VEb  1 e 0 @31781 ]
+"41728
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"42337
+[v _RC6 RC6 `VEb  1 e 0 @31862 ]
+"42379
+[v _RCIE RCIE `VEb  1 e 0 @30213 ]
+"42382
+[v _RCIF RCIF `VEb  1 e 0 @30277 ]
+"43768
+[v _TMR0IE TMR0IE `VEb  1 e 0 @30189 ]
+"43771
+[v _TMR0IF TMR0IF `VEb  1 e 0 @30253 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\rand.c
+[v _seed seed `ul  1 s 4 seed ]
+"28 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\main.c
+[v _g_t0_f g_t0_f `a  1 e 1 0 ]
+"29
+[v _dgm_f dgm_f `a  1 e 1 0 ]
+"30
+[v _g_time g_time `ul  1 e 4 0 ]
+"110
+[v _main main `(v  1 e 1 0 ]
+{
+"112
+[v main@cnt cnt `uc  1 a 1 93 ]
+"113
+[v main@val val `uc  1 a 1 92 ]
+"164
+} 0
+"50
+[v _init init `(v  1 e 1 0 ]
+{
+"107
+} 0
+"4 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\library/UART/UART.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+[v UART_Init@baud baud `us  1 p 2 90 ]
+"10
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 89 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 88 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 80 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S634 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S639 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S642 . 4 `l 1 i 4 0 `d 1 f 4 0 `S634 1 fAsBytes 4 0 `S639 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S642  1 a 4 33 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 27 ]
+[s S710 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S713 . 2 `s 1 i 2 0 `us 1 n 2 0 `S710 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S713  1 a 2 37 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 58 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 51 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 56 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 63 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 62 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 55 ]
+"11
+[v ___fldiv@b b `d  1 p 4 39 ]
+[v ___fldiv@a a `d  1 p 4 43 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 79 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 78 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 77 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 76 ]
+"10
+[v ___fladd@b b `d  1 p 4 64 ]
+[v ___fladd@a a `d  1 p 4 68 ]
+"237
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 14 ]
+[v ___flge@ff2 ff2 `d  1 p 4 18 ]
+"19
+} 0
+"391 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\main.c
+[v _T0_int2 T0_int2 `(a  1 e 1 0 ]
+{
+[v T0_int2@val val `s  1 p 2 0 ]
+"393
+[v T0_int2@flag flag `uc  1 s 1 flag ]
+"394
+[v T0_int2@cnt cnt `s  1 s 2 cnt ]
+"406
+} 0
+"373
+[v _T0_int T0_int `(a  1 e 1 0 ]
+{
+[v T0_int@val val `s  1 p 2 0 ]
+"375
+[v T0_int@flag flag `uc  1 s 1 flag ]
+"376
+[v T0_int@cnt cnt `s  1 s 2 cnt ]
+"388
+} 0
+"182
+[v _NTC_Write NTC_Write `(v  1 e 1 0 ]
+{
+"184
+[v NTC_Write@buff buff `[6]uc  1 a 6 47 ]
+"185
+[v NTC_Write@temp temp `um  1 a 3 53 ]
+"182
+[v NTC_Write@data data `ul  1 p 4 39 ]
+"206
+} 0
+"339
+[v _IC595_Write IC595_Write `(v  1 e 1 0 ]
+{
+"341
+[v IC595_Write@i i `s  1 a 2 7 ]
+"339
+[v IC595_Write@data data `um  1 p 3 0 ]
+"351
+} 0
+"209
+[v _Duty_Control Duty_Control `(v  1 e 1 0 ]
+{
+"215
+[v Duty_Control@ntc_limit ntc_limit `Cus  1 a 2 5 ]
+"211
+[v Duty_Control@led led `us  1 s 2 led ]
+"212
+[v Duty_Control@ntc ntc `us  1 s 2 ntc ]
+"241
+} 0
+"354
+[v _Set_PWM_Duty Set_PWM_Duty `(v  1 e 1 0 ]
+{
+[v Set_PWM_Duty@ch ch `uc  1 a 1 wreg ]
+[v Set_PWM_Duty@ch ch `uc  1 a 1 wreg ]
+[v Set_PWM_Duty@duty duty `s  1 p 2 0 ]
+[v Set_PWM_Duty@ch ch `uc  1 a 1 4 ]
+"370
+} 0
+"321
+[v _DGM_Effect DGM_Effect `(ul  1 e 4 0 ]
+{
+"323
+[v DGM_Effect@data data `ul  1 a 4 35 ]
+"321
+[v DGM_Effect@time time `ul  1 p 4 22 ]
+[v DGM_Effect@val val `uc  1 p 1 26 ]
+"324
+[v DGM_Effect@factor factor `C[7]ul  1 s 28 factor ]
+"336
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\rand.c
+[v _rand rand `(i  1 e 2 0 ]
+{
+"15
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"167 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\main.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"179
+} 0
+"29 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\library/UART/UART.c
+[v _UART_Read UART_Read `(uc  1 e 1 0 ]
+{
+"37
+} 0
+"244 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\main.c
+[v _RTC_Read RTC_Read `(v  1 e 1 0 ]
+{
+[v RTC_Read@data data `uc  1 a 1 wreg ]
+[v RTC_Read@data data `uc  1 a 1 wreg ]
+"246
+[v RTC_Read@cnt cnt `s  1 s 2 cnt ]
+"247
+[v RTC_Read@str str `[10]uc  1 s 10 str ]
+"244
+[v RTC_Read@data data `uc  1 a 1 58 ]
+"289
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v memset@k k `ui  1 a 2 8 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\atol.c
+[v _atol atol `(l  1 e 4 0 ]
+{
+"6
+[v atol@n n `l  1 a 4 28 ]
+"7
+[v atol@neg neg `i  1 a 2 21 ]
+"4
+[v atol@s s `*.39Cuc  1 p 2 12 ]
+"17
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isspace.c
+[v _isspace isspace `(i  1 e 2 0 ]
+{
+[v isspace@c c `i  1 p 2 0 ]
+"8
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\isdigit.c
+[v _isdigit isdigit `(i  1 e 2 0 ]
+{
+[v isdigit@c c `i  1 p 2 0 ]
+"8
+} 0
+"292 C:\Users\Gentiana\iCloudDrive\Documents\PIC\NTC.X\main.c
+[v _Convert_data Convert_data `(ul  1 e 4 0 ]
+{
+"295
+[v Convert_data@min min `ul  1 a 4 52 ]
+"294
+[v Convert_data@hour hour `ul  1 a 4 48 ]
+"296
+[v Convert_data@sec sec `ul  1 a 4 44 ]
+"292
+[v Convert_data@data data `ul  1 p 4 32 ]
+"318
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v i2___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v i2___lmul@product product `ul  1 a 4 8 ]
+"15
+[v i2___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v i2___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+[v i2___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v i2___llmod@counter counter `uc  1 a 1 21 ]
+"7
+[v i2___llmod@dividend dividend `ul  1 p 4 13 ]
+[v i2___llmod@divisor divisor `ul  1 p 4 17 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\__lldiv.c
+[v i2___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v i2___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v i2___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v i2___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v i2___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
